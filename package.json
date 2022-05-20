@@ -4,9 +4,16 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "start": "lite-server"
+    "start": "webpack-dev-server",
+    "build": "webpack"
   },
   "devDependencies": {
-    "lite-server": "^2.5.4"
+    "clean-webpack-plugin": "^4.0.0",
+    "lite-server": "^2.5.4",
+    "ts-loader": "^9.3.0",
+    "typescript": "^4.6.4",
+    "webpack": "^5.72.1",
+    "webpack-cli": "^4.9.2",
+    "webpack-dev-server": "^4.9.0"
   }
 }
