@@ -6,13 +6,12 @@ module.exports = {
     output: {
         filename: 'bundle.js',
         path: path.resolve(__dirname, 'dist'),
-        publicPath: 'dist',
+        publicPath: 'dist'
     },
-    devtool: 'inline-source-map',
     module: {
         rules: [
             {
-                test: /\.ts$/,
+                test: /\.tsx?$/,
                 use: 'ts-loader',
                 exclude: /node_modules/
             }
@@ -20,5 +19,5 @@ module.exports = {
     },
     resolve: {
         extensions: ['.ts', '.js']
-    },
+    }
 };
