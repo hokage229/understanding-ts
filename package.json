@@ -4,8 +4,9 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "start": ""
+    "start": "lite-server"
   },
   "devDependencies": {
+    "lite-server": "^2.5.4"
   }
 }
